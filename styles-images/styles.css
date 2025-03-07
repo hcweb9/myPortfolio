@@ -740,6 +740,7 @@ section {
   body {
     width: 100%;
     overflow-x: hidden;
+ 
   }
 
   html {
@@ -759,10 +760,12 @@ section {
     margin: 0 auto;
     background-size: cover;
     background-position: center right;
+    margin-top: 0;
   }
 
   .home-content {
     width: 100%;
+    margin-top: 0;
     padding-top: 2rem;
   }
 
@@ -924,6 +927,7 @@ section {
   /*.home-content {
     margin-top: 0.8rem;
   }*/
+  
 
   .home-content h1 {
     font-size: 40px;
@@ -949,6 +953,7 @@ section {
   section {
     width: 100%;
     /*margin-top: 9rem;*/
+    margin-top: 0;
   }
 
   .home-content h1 {
@@ -984,10 +989,12 @@ section {
 @media (max-width: 457px) {
   .home {
     background: none;
+    margin-top: 0;
   }
 
   .contact form .input-box .input-field {
     width: 100%;
+    margin-top: 0;
   }
 
   .contact form .btn-box .btn {
