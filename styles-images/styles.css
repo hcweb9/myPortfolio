@@ -723,7 +723,7 @@ section {
   }
 
   .home-content h1 {
-    font-size: 40px;
+    font-size: 4.2rem;
   }
 
   .home-sci {
@@ -926,21 +926,24 @@ section {
   }
 }
 
-@media (min-width: 520px) and (max-width: 551px) {
-  .home-content h1 {
-    font-size: 4rem;
-  }
-
-  .home-content h3 {
-    margin-top: 1rem;
-  }
-}
-
-@media (min-width: 458px) and (max-width: 703px) {
-  .home-imgHover {
+@media (max-width: 585px) {
+  .logo.hidden {
     display: none;
   }
+
+
+  #menu-icon {
+    position: absolute; 
+    top: 50%;
+    right: 9%;
+    transform: translateY(-50%);
+    display: block;
 }
+}
+
+
+
+
 
 @media (max-width: 520px) {
   html {
@@ -981,9 +984,9 @@ section {
 }
 
 @media (max-width: 457px) {
-  .home {
-    background: none;
-    margin-top: 0;
+  
+  .home-content h1{
+    font-size: 4.5rem;
   }
 
   .contact form .input-box .input-field {
