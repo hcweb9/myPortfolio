@@ -93,6 +93,8 @@ body {
 section {
   min-height: 100vh;
   padding: 10rem 9% 2rem;
+  scroll-margin-top: 4.5rem; 
+
 }
 
 .home {
@@ -102,6 +104,8 @@ section {
   background: url(./img/home-pic.png) no-repeat;
   background-size: cover;
   background-position: center;
+ 
+  
 }
 
 .home-content {
@@ -152,7 +156,7 @@ section {
 
 .home-sci {
   position: absolute;
-  bottom: 4rem;
+  bottom: 2rem;
   width: 170px;
   display: flex;
   justify-content: space-between;
@@ -214,6 +218,7 @@ section {
 /*ABOUT*/
 
 .about {
+  margin-top: 8rem;
   padding: 2rem 9%;
   display: flex;
   justify-content: center;
@@ -222,6 +227,7 @@ section {
   gap: 2rem;
   background: rgb(13, 69, 71);
   padding-bottom: 6rem;
+ 
 }
 
 .heading {
@@ -931,19 +937,14 @@ section {
     display: none;
   }
 
-
   #menu-icon {
-    position: absolute; 
+    position: absolute;
     top: 50%;
     right: 9%;
     transform: translateY(-50%);
     display: block;
+  }
 }
-}
-
-
-
-
 
 @media (max-width: 520px) {
   html {
@@ -984,8 +985,7 @@ section {
 }
 
 @media (max-width: 457px) {
-  
-  .home-content h1{
+  .home-content h1 {
     font-size: 4.5rem;
   }
 
