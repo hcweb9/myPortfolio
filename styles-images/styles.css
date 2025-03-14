@@ -944,6 +944,12 @@ section {
     transform: translateY(-50%);
     display: block;
   }
+
+  section {
+
+    scroll-margin-top: .8rem; 
+  
+  }
 }
 
 @media (max-width: 520px) {
@@ -951,11 +957,7 @@ section {
     font-size: 60%;
   }
 
-  section {
-    width: 100%;
-    margin-top: 9rem;
-    margin-top: 0;
-  }
+
 
   .home-content h1 {
     display: flex;
